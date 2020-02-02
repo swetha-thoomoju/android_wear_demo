@@ -23,6 +23,7 @@
         app:layout_constraintEnd_toEndOf="@+id/message"
         app:layout_constraintTop_toBottomOf="@+id/message"
         app:layout_constraintStart_toStartOf="@+id/message"
+        android:onClick="sendDummyMessage"
         android:text="Send" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
